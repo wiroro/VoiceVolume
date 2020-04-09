@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ActivityMainDB">
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main_browse_fragment"
+        android:name="com.example.voicevolumn.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:deviceIds="tv"
+        tools:ignore="MergeRootFrame">
+
+        <TextView
+            android:id="@+id/volume_num"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="89"
+            android:textSize="150dp"
+            android:gravity="center"
+            android:textColor="@color/lb_tv_white"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</layout>

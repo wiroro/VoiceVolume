@@ -1,0 +1,3 @@
+rootProject.name='VoiceVolume'
+include ':app'
+include ':voicevolume'
