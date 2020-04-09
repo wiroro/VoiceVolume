@@ -21,7 +21,7 @@ public class AudioRecordDemo {
     private boolean isGetVoiceRun;          //用来标识是否正在录制音频, 同时可以用来控制是否结束测量分贝
     private Object mLock;       //用来锁定线程的对象
     private Context mContext;
-    private int recordInterval = 500;       //测量间隔
+    private int recordInterval = 100;       //测量间隔
 
     public AudioRecordDemo(Context context) {
         this.mContext = context;
